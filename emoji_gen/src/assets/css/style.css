@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Delicious+Handrawn&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+
+    main{    
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 75vh;
+    }
+} 
+
+header{
+    background-color: steelblue;
+    padding-bottom: 25px;
+    h1{
+        margin-block: 0;        
+        color: white;
+        font-family:  "Black And White Picture", system-ui;
+        font-size: 6rem;
+        text-align: center;        
+    }
+    button{
+        width: fit-content;
+        display: block;
+        margin-inline: auto;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: #0f436f;
+        color: white;
+        border: 2px solid white;
+        font-weight: bold;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        &:hover{
+            background-color: #124c7f;
+            box-shadow: 0 0 5px rgb(255 255 255 / 0.5);
+            cursor: pointer;
+        }
+    }
+}
+
+#emoji{    
+    width: fit-content;    
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#emoji{
+    #hat, #head, #eye, #mouth{
+        position: absolute;
+    }
+    #hat{
+        z-index:5;
+  
+    }
+    #head{        
+
+    }
+        
+}
+
